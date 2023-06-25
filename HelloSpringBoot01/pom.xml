@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.springboot.newexample</groupId>
+  <artifactId>HelloSpringBoot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- 
+    Every spring boot project the following entry is the starting point. It will create bootstrap jar and 
+    necessary configuration required for starting my spring boot 
+    -->
+   <parent>
+	   <groupId>org.springframework.boot</groupId>
+	   <artifactId>spring-boot-starter-parent</artifactId>
+	   <version>2.1.6.RELEASE</version>
+    </parent>
+    
+    <!--  We need All depencies -->
+    <dependencies>
+    <!--  Spring Boot Starter web is the dependency for creating web project. It internally all ncessary configuration
+    related to web project and it comes with embedded tomcat. -->
+		    <dependency>
+		     	 <groupId>org.springframework.boot</groupId>
+			   	<artifactId>spring-boot-starter-web</artifactId>
+		  	</dependency>
+		    
+    </dependencies>
+    
+    
+    
+    
+    
+  
+</project>
